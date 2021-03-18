@@ -1,0 +1,22 @@
+[
+  {
+    "text": "Make a todo app",
+    "id": "1",
+    "completed": true
+  },
+  {
+    "text": "Walk the doggo",
+    "id": "2",
+    "completed": false
+  },
+  {
+    "text": "Have fun",
+    "id": "3",
+    "completed": false
+  },
+  {
+    "text": "Watch a movie",
+    "id": "4",
+    "completed": true
+  }
+]

@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+.App {
+  font-family: 'Poppins';
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.flex-parent{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5rem 0rem;
+  padding : 1.5rem 0rem;
+  flex-wrap: wrap;
+}
+
+.flex-child{
+  text-align: left;
+}
+
+.flex-child img {
+  border-radius: 50%;
+}
+
+.vr {
+  border-left: 1px solid black;
+  height: 150px;
+  margin: 0rem 1rem;
+}
+
+@media only screen and (max-width: 700px) {
+.vr{
+  display: none;
+}
+}
+
+li{
+  list-style: none;
+}
+
+a{
+  color: black;
+}
