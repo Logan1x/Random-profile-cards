@@ -1,18 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 
+
 .App {
   font-family: 'Poppins';
   text-align: center;
   font-size: 1.5rem;
+  margin: 5rem 0.5rem;
+  background-color: #fcfcfc;
+  
 }
 
 .flex-parent{
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 5rem 0rem;
+  margin: auto;
   padding : 1.5rem 0rem;
   flex-wrap: wrap;
+  max-width: 800px;
+  border-radius: 35px;
+  background: #fcfcfc;
+  box-shadow:  35px 35px 70px #e8e8e8,
+             -35px -35px 70px #ffffff;
 }
 
 .flex-child{
@@ -27,11 +36,16 @@
   border-left: 1px solid black;
   height: 150px;
   margin: 0rem 1rem;
+  margin-left: 2rem;
 }
 
 @media only screen and (max-width: 700px) {
 .vr{
   display: none;
+}
+
+.App {
+  font-size: 1rem;
 }
 }
 
@@ -39,6 +53,19 @@ li{
   list-style: none;
 }
 
+.list-inline{
+  display: inline;
+  padding: 0rem .5rem;
+}
+
 a{
   color: black;
+}
+
+footer{
+  bottom :0
+}
+
+footer ul {
+  padding-inline-start: 0px;
 }

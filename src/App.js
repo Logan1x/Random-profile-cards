@@ -48,7 +48,15 @@ export default function App() {
         <p>No user found, please try again</p>
       )}
     <h5>Based on <a href="https://randomuser.me">Random User API</a></h5>
-    <footer>Made By Khushal Sharma</footer>
+    <footer>
+      <p>Made By Khushal Sharma</p>
+      <ul>
+      <li className="list-inline"><a href="https://twitter.com/herkuch"><i class="fab fa-twitter"></i></a></li>
+      <li className="list-inline"><a href="https://github.com/Logan1x/"><i class="fab fa-github"></i></a></li>
+      <li className="list-inline"><a href="https://www.linkedin.com/in/logan1x/"><i class="fab fa-linkedin-in"></i></a></li>
+      </ul>
+      </footer>
+
     </div>
   );
 }
